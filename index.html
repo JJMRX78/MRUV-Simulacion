@@ -23,6 +23,7 @@
     </div>
 
     <button onclick="startSimulation()">Iniciar</button>
+    <button onclick="togglePause()">Pausar</button>
     <button onclick="resetSimulation()">Reiniciar</button>
   </div>
 
@@ -36,8 +37,10 @@
 
   <div class="track">
     <div class="car" id="car1">🚗</div>
-    <div class="car" id="car2" style="top: 60px;">🚙</div>
+    <div class="car" id="car2">🚙</div>
   </div>
+
+  <div id="results"></div>
 
   <script src="script.js"></script>
 </body>
